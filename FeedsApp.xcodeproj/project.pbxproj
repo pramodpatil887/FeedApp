@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CD8E135A2014E18300428A84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13592014E18300428A84 /* AppDelegate.m */; };
-		CD8E135D2014E18300428A84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E135C2014E18300428A84 /* ViewController.m */; };
-		CD8E13602014E18300428A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8E135E2014E18300428A84 /* Main.storyboard */; };
 		CD8E13622014E18300428A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8E13612014E18300428A84 /* Assets.xcassets */; };
 		CD8E13652014E18300428A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8E13632014E18300428A84 /* LaunchScreen.storyboard */; };
 		CD8E13682014E18300428A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13672014E18300428A84 /* main.m */; };
 		CD8E13722014E18300428A84 /* FeedsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13712014E18300428A84 /* FeedsAppTests.m */; };
+		CD8E13822014ECD400428A84 /* FeedDetailsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13812014ECD400428A84 /* FeedDetailsPresenter.m */; };
+		CD8E13882014ED6900428A84 /* FeedDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13872014ED6900428A84 /* FeedDetailsView.m */; };
+		CD8E138B2014EDCE00428A84 /* FeedDetailsInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E138A2014EDCE00428A84 /* FeedDetailsInteractor.m */; };
+		CD8E138E2014EDEE00428A84 /* FeedDetailsRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E138D2014EDEE00428A84 /* FeedDetailsRouter.m */; };
+		CD8E13912014EE0300428A84 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13902014EE0300428A84 /* Feed.m */; };
+		CD8E13942014FF7600428A84 /* FeedRow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E13932014FF7600428A84 /* FeedRow.m */; };
+		CD8E139820150E7600428A84 /* FeedRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E139720150E7600428A84 /* FeedRowCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,9 +35,6 @@
 		CD8E13552014E18300428A84 /* FeedsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8E13582014E18300428A84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD8E13592014E18300428A84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD8E135B2014E18300428A84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CD8E135C2014E18300428A84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CD8E135F2014E18300428A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD8E13612014E18300428A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8E13642014E18300428A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8E13662014E18300428A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +42,21 @@
 		CD8E136D2014E18300428A84 /* FeedsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8E13712014E18300428A84 /* FeedsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedsAppTests.m; sourceTree = "<group>"; };
 		CD8E13732014E18300428A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8E13802014ECD400428A84 /* FeedDetailsPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailsPresenter.h; sourceTree = "<group>"; };
+		CD8E13812014ECD400428A84 /* FeedDetailsPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailsPresenter.m; sourceTree = "<group>"; };
+		CD8E13862014ED6900428A84 /* FeedDetailsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailsView.h; sourceTree = "<group>"; };
+		CD8E13872014ED6900428A84 /* FeedDetailsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailsView.m; sourceTree = "<group>"; };
+		CD8E13892014EDCE00428A84 /* FeedDetailsInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailsInteractor.h; sourceTree = "<group>"; };
+		CD8E138A2014EDCE00428A84 /* FeedDetailsInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailsInteractor.m; sourceTree = "<group>"; };
+		CD8E138C2014EDEE00428A84 /* FeedDetailsRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailsRouter.h; sourceTree = "<group>"; };
+		CD8E138D2014EDEE00428A84 /* FeedDetailsRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedDetailsRouter.m; sourceTree = "<group>"; };
+		CD8E138F2014EE0300428A84 /* Feed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		CD8E13902014EE0300428A84 /* Feed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		CD8E13922014FF7600428A84 /* FeedRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedRow.h; sourceTree = "<group>"; };
+		CD8E13932014FF7600428A84 /* FeedRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedRow.m; sourceTree = "<group>"; };
+		CD8E13952015046700428A84 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CD8E139620150E7600428A84 /* FeedRowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedRowCell.h; sourceTree = "<group>"; };
+		CD8E139720150E7600428A84 /* FeedRowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedRowCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +98,18 @@
 		CD8E13572014E18300428A84 /* FeedsApp */ = {
 			isa = PBXGroup;
 			children = (
+				CD8E139D2015984C00428A84 /* Routers */,
+				CD8E139C2015982E00428A84 /* Entities */,
+				CD8E139B2015980D00428A84 /* Views */,
+				CD8E139A201597DA00428A84 /* Interactors */,
+				CD8E1399201597B800428A84 /* Presenters */,
 				CD8E13582014E18300428A84 /* AppDelegate.h */,
 				CD8E13592014E18300428A84 /* AppDelegate.m */,
-				CD8E135B2014E18300428A84 /* ViewController.h */,
-				CD8E135C2014E18300428A84 /* ViewController.m */,
-				CD8E135E2014E18300428A84 /* Main.storyboard */,
 				CD8E13612014E18300428A84 /* Assets.xcassets */,
 				CD8E13632014E18300428A84 /* LaunchScreen.storyboard */,
 				CD8E13662014E18300428A84 /* Info.plist */,
 				CD8E13672014E18300428A84 /* main.m */,
+				CD8E13952015046700428A84 /* Constants.h */,
 			);
 			path = FeedsApp;
 			sourceTree = "<group>";
@@ -101,6 +121,95 @@
 				CD8E13732014E18300428A84 /* Info.plist */,
 			);
 			path = FeedsAppTests;
+			sourceTree = "<group>";
+		};
+		CD8E1399201597B800428A84 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13A02015A1D200428A84 /* Feed Details Presenter */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		CD8E139A201597DA00428A84 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E139F2015A1B100428A84 /* Feed Details Interactor */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		CD8E139B2015980D00428A84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E139E2015A18400428A84 /* Feed Details View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD8E139C2015982E00428A84 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13A12015A1FC00428A84 /* Feed */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CD8E139D2015984C00428A84 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13A22015A21000428A84 /* Feed Details Router */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		CD8E139E2015A18400428A84 /* Feed Details View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13862014ED6900428A84 /* FeedDetailsView.h */,
+				CD8E13872014ED6900428A84 /* FeedDetailsView.m */,
+				CD8E139620150E7600428A84 /* FeedRowCell.h */,
+				CD8E139720150E7600428A84 /* FeedRowCell.m */,
+			);
+			path = "Feed Details View";
+			sourceTree = "<group>";
+		};
+		CD8E139F2015A1B100428A84 /* Feed Details Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13892014EDCE00428A84 /* FeedDetailsInteractor.h */,
+				CD8E138A2014EDCE00428A84 /* FeedDetailsInteractor.m */,
+			);
+			path = "Feed Details Interactor";
+			sourceTree = "<group>";
+		};
+		CD8E13A02015A1D200428A84 /* Feed Details Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E13802014ECD400428A84 /* FeedDetailsPresenter.h */,
+				CD8E13812014ECD400428A84 /* FeedDetailsPresenter.m */,
+			);
+			path = "Feed Details Presenter";
+			sourceTree = "<group>";
+		};
+		CD8E13A12015A1FC00428A84 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E138F2014EE0300428A84 /* Feed.h */,
+				CD8E13902014EE0300428A84 /* Feed.m */,
+				CD8E13922014FF7600428A84 /* FeedRow.h */,
+				CD8E13932014FF7600428A84 /* FeedRow.m */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		CD8E13A22015A21000428A84 /* Feed Details Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E138C2014EDEE00428A84 /* FeedDetailsRouter.h */,
+				CD8E138D2014EDEE00428A84 /* FeedDetailsRouter.m */,
+			);
+			path = "Feed Details Router";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +296,6 @@
 			files = (
 				CD8E13652014E18300428A84 /* LaunchScreen.storyboard in Resources */,
 				CD8E13622014E18300428A84 /* Assets.xcassets in Resources */,
-				CD8E13602014E18300428A84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD8E135D2014E18300428A84 /* ViewController.m in Sources */,
+				CD8E13942014FF7600428A84 /* FeedRow.m in Sources */,
+				CD8E138E2014EDEE00428A84 /* FeedDetailsRouter.m in Sources */,
+				CD8E13822014ECD400428A84 /* FeedDetailsPresenter.m in Sources */,
+				CD8E13912014EE0300428A84 /* Feed.m in Sources */,
+				CD8E13882014ED6900428A84 /* FeedDetailsView.m in Sources */,
+				CD8E139820150E7600428A84 /* FeedRowCell.m in Sources */,
 				CD8E13682014E18300428A84 /* main.m in Sources */,
+				CD8E138B2014EDCE00428A84 /* FeedDetailsInteractor.m in Sources */,
 				CD8E135A2014E18300428A84 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CD8E135E2014E18300428A84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD8E135F2014E18300428A84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD8E13632014E18300428A84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
